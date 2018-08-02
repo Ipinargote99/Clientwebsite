@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background: transparent;
+    
+
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+    
+}
+
+    
+
+nav{
+    
+
+    float:right;
+    
+    
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    
+
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+}
+li{
+       font-family: 'Salsa', cursive;
+    
+    
+
+}
+nav a{
+    color:gainsboro;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+nav a:hover{
+    color: white;
+}
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: gainsboro;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition:  all ease-in-out 250ms;
+    
+}
+nav a:hover::before{
+    width: 100%;
+
+                
+     }
+
+
+#box1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/pro1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#box2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/pro2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#box3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/pro3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.cta-button{
+    background-color: transparent;
+        background-attachment: fixed;
+
+    border: 3px solid #fff;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 30%;
+    font-size: 20px;
+}
+.cta-button:hover{
+    background-color:black;
+    border: 2px solid #fff;
+    color: white;
+      }

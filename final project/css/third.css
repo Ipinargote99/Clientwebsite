@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #222;
+    
+}
+
+#box1{
+    padding-top: 3%;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/b1.png);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#box2{
+        padding-top: 3%;
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/b2.png);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#box3{
+        padding-top: 3%;
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img//b3.png);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+h1{
+     font-family: 'Rock Salt', cursive;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background: transparent fixed;
+    
+
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+    
+
+nav{
+
+    float:right;
+    
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    
+    position: fixed;
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+}
+li{
+         font-family: 'Salsa', cursive;
+    
+
+}
+nav a{
+    color:gainsboro;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+nav a:hover{
+    color: white;
+}
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: gainsboro;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition:  all ease-in-out 250ms;
+    
+}
+nav a:hover::before{
+    width: 100%;
+}
+.gallery{
+    
+    margin 10px 50px;
+}
+.gallery img{
+    
+    width: 400px;
+    padding: 5px;
+    filter:grayscale(100%);
+    transition:1s;
+    
+}
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1,1);
+}
+#box4{
+    
+    text-align: center;
+   
+    background-attachment: fixed;
+       }
+h2{
+   
+    
+    text-align: center;
+    font-size: 40px;
+        font-family: 'Rock Salt', cursive;
+    color: darkgray;
+
+}
